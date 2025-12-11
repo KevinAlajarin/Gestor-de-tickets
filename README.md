@@ -6,7 +6,8 @@
 
 Sistema profesional de gestión de tickets de soporte (Help Desk) diseñado con arquitectura escalable. Integra una API RESTful, una interfaz moderna en React y un módulo de Business Intelligence en tiempo real.
 
-![Dashboard Preview](docs/dashboard_preview.png)
+<img width="725" height="441" alt="image" src="https://github.com/user-attachments/assets/94a13493-6dc0-4f7e-8e6c-9d55ab85668b" />
+
 
 ## 📋 Características Principales
 
@@ -46,7 +47,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina.
 4.  *Nota:* No necesitas crear las tablas manualmente; el backend las generará automáticamente al iniciarse.
 
 ### 2. Configuración del Backend (API)
-```bash
+bash
 cd backend
 
 # Crear entorno virtual
@@ -83,4 +84,6 @@ La aplicación estará disponible en: http://localhost:5173📊 Integración con
 │   │   └── index.css    # Estilos globales y Tailwind
 │   └── vite.config.js   # Configuración Vite
 └── README.md            # Documentación
+
 Desarrollado por Kevin ALajarin - 2025
+
