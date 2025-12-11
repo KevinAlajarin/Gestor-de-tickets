@@ -1,0 +1,53 @@
+# --- GENERAL & OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# --- PYTHON (BACKEND) ---
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Environment Variables (CRÍTICO: No subir contraseñas)
+.env
+backend/.env
+
+# SQL Server / Database
+*.mdf
+*.ldf
+*.bak
+
+# --- NODE JS / REACT (FRONTEND) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# Frontend Environment Variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- POWER BI ---
+# Ignorar archivos temporales o de bloqueo de Power BI
+*.pbix.lock
+# NOTA: No ignoramos *.pbix porque queremos subir el dashboard al repo
+
+# --- OTROS ---
+# Ignorar capturas de pantalla fuera de la carpeta docs (opcional)
+*.png
+!docs/*.png

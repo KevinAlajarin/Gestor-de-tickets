@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar para un look más moderno */
+body {
+    background-color: #f8f9fa;
+}
