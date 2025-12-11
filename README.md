@@ -47,7 +47,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina.
 4.  *Nota:* No necesitas crear las tablas manualmente; el backend las generará automáticamente al iniciarse.
 
 ### 2. Configuración del Backend (API)
-bash
+```bash
 cd backend
 
 # Crear entorno virtual
@@ -84,6 +84,8 @@ La aplicación estará disponible en: http://localhost:5173📊 Integración con
 │   │   └── index.css    # Estilos globales y Tailwind
 │   └── vite.config.js   # Configuración Vite
 └── README.md            # Documentación
+```
 
 Desarrollado por Kevin ALajarin - 2025
+
 
