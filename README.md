@@ -88,13 +88,14 @@ La aplicación estará disponible en: http://localhost:5173📊 Integración con
 
 📘 Aprendizajes principales
 
-Cómo conectar Flask con SQL Server usando ODBC
-Buenas prácticas de API REST
-Manejo de estados globales en React
-DirectQuery en Power BI para dashboards en tiempo real
-Diseño modular y separación de capas (frontend-backend-db)
+- Cómo conectar Flask con SQL Server usando ODBC
+- Buenas prácticas de API REST
+- Manejo de estados globales en React
+- DirectQuery en Power BI para dashboards en tiempo real
+- Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
