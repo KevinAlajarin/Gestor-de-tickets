@@ -1,4 +1,4 @@
-# 🚀 Enterprise HelpDesk System + Power BI Analytics
+# 🚀 Sistema profesional de gestión de tickets de soporte (Help Desk) 
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Stack](https://img.shields.io/badge/Stack-FullStack-blue)
@@ -95,6 +95,7 @@ La aplicación estará disponible en: http://localhost:5173📊 Integración con
 - Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
