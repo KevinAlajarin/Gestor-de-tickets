@@ -8,8 +8,7 @@ Sistema profesional de gestión de tickets de soporte (Help Desk) diseñado con 
 
 <img width="725" height="441" alt="image" src="https://github.com/user-attachments/assets/94a13493-6dc0-4f7e-8e6c-9d55ab85668b" />
 
-
-## 📋 Características Principales
+Características Principales
 
 * **Arquitectura Decoplada:** Frontend (React/Vite) y Backend (Flask) independientes.
 * **Base de Datos Empresarial:** Persistencia en **Microsoft SQL Server** (Edición Developer).
@@ -18,7 +17,7 @@ Sistema profesional de gestión de tickets de soporte (Help Desk) diseñado con 
 * **UI/UX Moderna:** Diseño con Tailwind CSS y componentes de React Bootstrap.
 * **Feedback Visual:** Sistema de alertas y validaciones de estado en tiempo real.
 
-## 🛠 Tech Stack
+Stack Tecnologico
 
 ### Frontend
 * **Framework:** React 18
@@ -36,7 +35,7 @@ Sistema profesional de gestión de tickets de soporte (Help Desk) diseñado con 
 * **Motor BD:** SQL Server 2025 Developer Edition
 * **Analytics:** Power BI Desktop
 
-## ⚙️ Guía de Instalación y Despliegue Local
+Guía de Instalación y Despliegue Local
 
 Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina.
 
@@ -70,7 +69,10 @@ npm install
 
 # Iniciar servidor de desarrollo
 npm run dev
-La aplicación estará disponible en: http://localhost:5173📊 Integración con Power BIEl proyecto incluye capacidad de análisis de datos. Para visualizar el dashboard:Abre Power BI Desktop.Ve a Obtener Datos > SQL Server.Ingresa tu servidor (ej: localhost\MSSQLSERVER02) y la BD helpdesk_db.Selecciona el modo DirectQuery (Importante para ver cambios en vivo).Usa tus credenciales de base de datos (sa).Carga la tabla tickets y actualiza los gráficos.🛡️ Documentación de APIMétodoEndpointDescripciónPOST/api/ticketsCrea un nuevo ticket. Requiere JSON con titulo y categoria.GET/api/ticketsObtiene todos los tickets. Soporta filtros ?estado=Abierto.PUT/api/tickets/<id>Actualiza el estado o descripción de un ticket.DELETE/api/tickets/<id>Elimina un ticket de la base de datos.GET/api/statsDevuelve KPIs JSON para dashboards ligeros.📂 Estructura del ProyectoPlaintextticket_system/
+```
+La aplicación estará disponible en: http://localhost:5173📊 Integración con Power BIEl proyecto incluye capacidad de análisis de datos. Para visualizar el dashboard:Abre Power BI Desktop.Ve a Obtener Datos > SQL Server.Ingresa tu servidor (ej: localhost\MSSQLSERVER02) y la BD helpdesk_db.Selecciona el modo DirectQuery (Importante para ver cambios en vivo).Usa tus credenciales de base de datos (sa).Carga la tabla tickets y actualiza los gráficos.🛡️ Documentación de APIMétodoEndpointDescripciónPOST/api/ticketsCrea un nuevo ticket. Requiere JSON con titulo y categoria.GET/api/ticketsObtiene todos los tickets. Soporta filtros ?estado=Abierto.PUT/api/tickets/<id>Actualiza el estado o descripción de un ticket.DELETE/api/tickets/<id>Elimina un ticket de la base de datos.GET/api/statsDevuelve KPIs JSON para dashboards ligeros.
+Estructura del ProyectoPlaintextticket_system/
+```text
 ├── backend/
 │   ├── app.py           # Entry point y Lógica de API
 │   ├── models.py        # Modelos SQL Server (SQLAlchemy)
@@ -86,7 +88,7 @@ La aplicación estará disponible en: http://localhost:5173📊 Integración con
 └── README.md            # Documentación
 ```
 
-📘 Aprendizajes principales
+Aprendizajes principales
 
 - Cómo conectar Flask con SQL Server usando ODBC
 - Buenas prácticas de API REST
@@ -95,6 +97,7 @@ La aplicación estará disponible en: http://localhost:5173📊 Integración con
 - Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
