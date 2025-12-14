@@ -66,15 +66,17 @@ npm install
 # Iniciar servidor de desarrollo
 npm run dev
 ```
+
 La aplicación estará disponible en: http://localhost:5173 
 Integración con Power BI
 El proyecto incluye capacidad de análisis de datos. 
-Para visualizar el dashboard:
-Abre Power BI Desktop.
+Para visualizar el dashboard: Abre Power BI Desktop.
+```text
 Ve a Obtener Datos > SQL Server.
 Ingresa tu servidor (ej: localhost\MSSQLSERVER02) y la BD helpdesk_db.Selecciona el modo DirectQuery.
 Usa tus credenciales de base de datos (sa).
 Carga la tabla tickets y actualiza los gráficos.
+```
 
 Documentación de API
 
@@ -113,6 +115,7 @@ Aprendizajes principales
 - Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
