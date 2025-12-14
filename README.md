@@ -67,10 +67,11 @@ npm install
 npm run dev
 ```
 
-La aplicación estará disponible en: http://localhost:5173 
-Integración con Power BI
-El proyecto incluye capacidad de análisis de datos. 
-Para visualizar el dashboard: Abre Power BI Desktop.
+La aplicación estará disponible en: http://localhost:5173     
+Integración con Power BI      
+El proyecto incluye capacidad de análisis de datos.         
+Para visualizar el dashboard: Abre Power BI Desktop.        
+
 ```text
 1. Ve a Obtener Datos > SQL Server.
 2. Ingresa tu servidor, la BD y selecciona el modo DirectQuery.
@@ -115,6 +116,7 @@ Aprendizajes principales
 - Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
