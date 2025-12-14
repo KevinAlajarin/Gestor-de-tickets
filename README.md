@@ -72,10 +72,10 @@ Integración con Power BI
 El proyecto incluye capacidad de análisis de datos. 
 Para visualizar el dashboard: Abre Power BI Desktop.
 ```text
-Ve a Obtener Datos > SQL Server.
-Ingresa tu servidor (ej: localhost\MSSQLSERVER02) y la BD helpdesk_db.Selecciona el modo DirectQuery.
-Usa tus credenciales de base de datos (sa).
-Carga la tabla tickets y actualiza los gráficos.
+1. Ve a Obtener Datos > SQL Server.
+2. Ingresa tu servidor, la BD y selecciona el modo DirectQuery.
+3. Usa tus credenciales de base de datos (sa).
+4. Carga la tabla tickets y actualiza los gráficos.
 ```
 
 Documentación de API
@@ -115,6 +115,7 @@ Aprendizajes principales
 - Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
