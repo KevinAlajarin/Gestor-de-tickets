@@ -70,8 +70,28 @@ npm install
 # Iniciar servidor de desarrollo
 npm run dev
 ```
-La aplicación estará disponible en: http://localhost:5173📊 Integración con Power BIEl proyecto incluye capacidad de análisis de datos. Para visualizar el dashboard:Abre Power BI Desktop.Ve a Obtener Datos > SQL Server.Ingresa tu servidor (ej: localhost\MSSQLSERVER02) y la BD helpdesk_db.Selecciona el modo DirectQuery (Importante para ver cambios en vivo).Usa tus credenciales de base de datos (sa).Carga la tabla tickets y actualiza los gráficos.🛡️ Documentación de APIMétodoEndpointDescripciónPOST/api/ticketsCrea un nuevo ticket. Requiere JSON con titulo y categoria.GET/api/ticketsObtiene todos los tickets. Soporta filtros ?estado=Abierto.PUT/api/tickets/<id>Actualiza el estado o descripción de un ticket.DELETE/api/tickets/<id>Elimina un ticket de la base de datos.GET/api/statsDevuelve KPIs JSON para dashboards ligeros.
+La aplicación estará disponible en: http://localhost:5173 
+Integración con Power BI
+El proyecto incluye capacidad de análisis de datos. 
+Para visualizar el dashboard:
+Abre Power BI Desktop.
+Ve a Obtener Datos > SQL Server.
+Ingresa tu servidor (ej: localhost\MSSQLSERVER02) y la BD helpdesk_db.Selecciona el modo DirectQuery.
+Usa tus credenciales de base de datos (sa).
+Carga la tabla tickets y actualiza los gráficos.
+
+Documentación de API
+
+| Metodo | Endpoint | Descripcion |
+|------|------------|-----|
+| **POST/api/tickets** | Crea un nuevo ticket. | Requiere JSON con titulo y categoria |
+| **GET/api/tickets** | Obtiene todos los tickets | Soporta filtros |
+| **PUT/api/tickets/<id>** | Actualiza el estado o descripcion de un ticket | Actualiza informacion |
+| **DELETE/api/tickets/<id>** | Elimina un ticket de la base de datos | Eliminacion de datos |
+| **GET/api/stats** | Devuelve KPis o JSON | Devolucion de informacion para los dashboards |
+
 Estructura del ProyectoPlaintextticket_system/
+
 ```text
 ├── backend/
 │   ├── app.py           # Entry point y Lógica de API
@@ -97,6 +117,7 @@ Aprendizajes principales
 - Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
