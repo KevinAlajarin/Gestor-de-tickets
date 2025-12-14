@@ -19,21 +19,17 @@ Características Principales
 
 Stack Tecnologico
 
-### Frontend
-* **Framework:** React 18
-* **Build Tool:** Vite (Carga ultra-rápida)
-* **Estilos:** Tailwind CSS 3.0 + React Bootstrap
-* **Http Client:** Fetch API nativa
-
-### Backend
-* **Lenguaje:** Python 3.10+
-* **Framework:** Flask 3.0
-* **ORM:** Flask-SQLAlchemy
-* **Driver SQL:** PyODBC (ODBC Driver 17/18)
-
-### Datos & Analytics
-* **Motor BD:** SQL Server 2025 Developer Edition
-* **Analytics:** Power BI Desktop
+| Área                         | Tecnología                        | Uso                                                                                        |
+| ---------------------------- | --------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Frontend**                 | React 18, Vite                    | Desarrollo de SPA (Single Page Application) con build rápido y hot reload                  |
+| **Frontend (UI)**            | Tailwind CSS 3.0, React Bootstrap | Estilado moderno, responsivo y componentes reutilizables                                   |
+| **Backend**                  | Python 3.10+, Flask 3.0           | Desarrollo de API RESTful y lógica de negocio                                              |
+| **Persistencia / ORM**       | Flask-SQLAlchemy                  | Abstracción de acceso a datos y mapeo objeto-relacional                                    |
+| **Base de Datos**            | SQL Server 2025 Developer Edition | Persistencia de datos relacional a nivel empresarial                                       |
+| **Driver SQL**               | PyODBC (ODBC Driver 17/18)        | Conectividad eficiente entre Python y SQL Server                                           |
+| **Datos & Analytics**        | Power BI Desktop                  | Visualización de KPIs y análisis interactivo de datos                                      |
+| **Logging**                  | Python Logging estándar           | Registro de eventos de la aplicación, trazabilidad de ejecuciones y diagnóstico de errores |
+| **Gestión de Configuración** | Dotenv                            | Gestión segura de variables de entorno y configuración por entorno                         |
 
 Guía de Instalación y Despliegue Local
 
@@ -117,6 +113,7 @@ Aprendizajes principales
 - Diseño modular y separación de capas (frontend-backend-db)
 
 Desarrollado por Kevin ALajarin - 2025
+
 
 
 
